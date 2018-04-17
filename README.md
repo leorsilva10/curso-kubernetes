@@ -1,4 +1,4 @@
-apiVersion: v1
+'''apiVersion: v1
 kind: Pod
 metadata:
   name: aplicacao
@@ -7,4 +7,4 @@ spec:
     - name: container-aplicacao-loja
       image: rafanercessian/aplicacao-loja:v1
       ports:
-       - containerPort: 80
+       - containerPort: 80'''
