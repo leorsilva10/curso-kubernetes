@@ -5,7 +5,8 @@ metadata:
 spec:
   template:
     metadata:
-      name: aplicacao
+      labels:
+       name: aplicacao-pod
     spec:
       containers:
         - name: container-aplicacao-loja
